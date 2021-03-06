@@ -1,0 +1,16 @@
+.topnav {
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: left;
+}
+
+.link {
+	color: var(--white);
+	text-decoration: none;
+	margin-right: 5px;
+}
+
+.link:hover {
+	text-decoration: underline;
+}
