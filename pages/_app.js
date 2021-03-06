@@ -1,7 +1,7 @@
 import '../styles/style.css'
 
-function EvpvHacks({ Component, pageProps }) {
+function Aellica({ Component, pageProps }) {
   return <Component {...pageProps} />
 }
 
-export default EvpvHacks;
+export default Aellica;

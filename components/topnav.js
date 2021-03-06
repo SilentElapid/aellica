@@ -6,7 +6,6 @@ const Topnav = () => {
 		<>
 			<div className={styles.topnav}>
 				<a className={styles.link} href="javascript:void(0);">About</a>
-				<a className={styles.link} href="javascript:void(0);">Resources</a>
 			</div>
 		</>
 	)
