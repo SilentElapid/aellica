@@ -1,8 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import styles from '../styles/sidenav.module.css';
 
 const Sidenav = () => {
-	const [hamburger, setHamburger] = useState(false);
 	return (
 		<>
 			<div className={styles.wrap}>
@@ -19,9 +18,6 @@ const Sidenav = () => {
 						</ul>
 						<h3>Technology in Warefare:</h3>
 						<ul>
-							<li>Navy</li>
-							<li>Air Force</li>
-							<li>Ground</li>
 							<li>Vehicles</li>
 							<li>Other</li>
 						</ul>

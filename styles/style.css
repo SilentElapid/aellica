@@ -6,7 +6,6 @@
 	margin: 0;
 	padding: 0;
 	direction: ltr;
-	user-select: text;
 }
 
 /*Global vars*/
@@ -30,6 +29,7 @@ html, body {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 	overflow-x: hidden;
+	user-select: text;
 }
 
 /*text styling*/
@@ -54,7 +54,7 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
 	width: 3px;
-	background-color: var(--primary);
+	background-color: var(--blue);
 }
 
 ::selection {

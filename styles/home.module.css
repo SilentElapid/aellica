@@ -16,6 +16,7 @@
 	background-image: var(--gradient), linear-gradient(to top, hsla(0 0% 0% / 90%), hsla(0 0% 0% / 0));
 	animation: blur 3s ease-out forwards;
 	box-shadow: 0px 8px 16px 0px var(--black);
+	z-index: 600;
 }
 
 .header {

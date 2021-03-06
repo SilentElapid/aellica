@@ -7,12 +7,26 @@
 	width: 100%;
 	margin-top: 21px !important;
 	margin: 0 auto;
-	display: flex;
+		display: flex;
+	justify-content: center;
 	align-items: center;
+	flex-direction: column;
 }
 
 @media only screen and (min-width: 480px) {
-	.card {width: 90%;}
+	.card {width: 90%;	display: flex;
+	align-items: center; justify-content: initial;flex-direction: initial;}
+	.text {
+		width: 85%;
+		float: right;
+		padding: 5px;
+		margin-left: 5px;
+		margin: initial;
+	}
+	.img {
+		float: left;
+		margin-right: 6px !important;
+}
 }
 
 .header {
@@ -20,10 +34,23 @@
 }
 
 .text {
-	width: 85%;
-	float: right;
+	width: 100%;
+	padding: 5px;
 }
 
 .img {
-	float: left;
+	width: 80%;
+	margin: 0 auto;
+	float: right !important;
+	border-radius: 5px;
+	z-index: 500 !important;
+}
+
+.wrap {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
