@@ -4,9 +4,8 @@
 }
 
 .gradient {
-	background-image: var(--gradient);
 	width: 100%;
-	min-height: 200px;
+	min-height: 250px;
 	text-align: center;
 	position: relative;
 	top: 0;
@@ -14,16 +13,50 @@
 	justify-content: center;
 	align-items: center;
 	user-select: none;
+	background-image: var(--gradient), linear-gradient(to top, hsla(0 0% 0% / 90%), hsla(0 0% 0% / 0));
+	animation: blur 3s ease-out forwards;
+	box-shadow: 0px 8px 16px 0px var(--black);
+	z-index: 600;
+}
+
+.header {
+	font-size: 2.1em;
+	color: #cee8ec;
+	text-shadow: 1px 1px 3px #a1b3b6;
+}
+
+.text {
+	width: 100%;
+	font-weight: 300;
+	padding: 5px;
+}
+
+.textHeader {
+	margin-top: 30px;
+	margin-bottom: 12px;
 }
 
 @media only screen and (min-width: 480px) {
 	.container {width: 80%;}
+	.header {font-size: 2.3em;}
+	.gradient {margin-bottom: 16px;}
 }
 
 @media only screen and (min-width: 620px) {
 	.container {width: 70%;}
+	.header{font-size: 3.2em;}
+	.gradient {min-height: 400px;}
 }
 
 @media only screen and (min-width: 1024px) {
 	.container {width: 65%;}
+}
+
+@keyframes blur {
+	from {
+		filter: blur(6px);
+	}
+	to {
+		filter: blur(0);
+	}
 }

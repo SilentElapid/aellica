@@ -1,0 +1,21 @@
+.topnav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	text-align: right;
+	padding: 9px;
+	width: 100%;
+	height: auto;
+	background: var(--gradient);
+	z-index: 600;
+}
+
+.link {
+	color: var(--white);
+	text-decoration: none;
+	margin-right: 5px;
+}
+
+.link:hover {
+	text-decoration: underline !important;
+}

@@ -11,11 +11,11 @@
 /*Global vars*/
 
 :root {
-	--primary: rgb(9, 31, 41);
-	--secondary: rgb(3, 4, 19);
+	--primary: #091f29;
+	--secondary: #030413;
 	--white: #FFFFFF;
 	--black: #000;
-	--gradient: linear-gradient(to right, rgb(96, 66, 131) , rgb(9, 53, 66));
+	--gradient: linear-gradient(to right, #604283 , #093542);
 	--blue: rgb(42, 125, 136);
 }
 
@@ -28,10 +28,12 @@ html, body {
 	color: var(--white);
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
+	overflow-x: hidden;
+	user-select: text;
 }
 
 /*text styling*/
-h1, h2, h3 {
+h1 {
 	text-align: center;
 }
 
@@ -52,7 +54,7 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
 	width: 3px;
-	background-color: var(--primary);
+	background-color: var(--blue);
 }
 
 ::selection {
