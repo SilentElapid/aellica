@@ -15,7 +15,7 @@
 	--secondary: #030413;
 	--white: #FFFFFF;
 	--black: #000;
-	--gradient: linear-gradient(to right, #604283 , #093542);
+	--gradient: repeating-linear-gradient(45deg, rgba(221, 211, 144,0.12) 0px, rgba(221, 211, 144,0.12) 1px,transparent 1px, transparent 13px),repeating-linear-gradient(135deg, rgba(221, 211, 144,0.12) 0px, rgba(221, 211, 144,0.12) 1px,transparent 1px, transparent 13px),linear-gradient(90deg, rgb(197, 4, 89),rgb(58, 28, 99));
 	--blue: rgb(42, 125, 136);
 }
 
@@ -25,6 +25,7 @@ html, body {
 	width: 100%;
 	height: 100%;
 	background-color: var(--secondary);
+    background-image: repeating-linear-gradient(175deg, rgb(3,4,19) 0px, rgb(3,4,19) 31px,transparent 31px, transparent 35px),repeating-linear-gradient(125deg, rgb(3,4,19) 0px, rgb(3,4,19) 31px,transparent 31px, transparent 35px),repeating-linear-gradient(250deg, rgb(3,4,19) 0px, rgb(3,4,19) 31px,transparent 31px, transparent 35px),repeating-linear-gradient(106deg, rgb(3,4,19) 0px, rgb(3,4,19) 31px,transparent 31px, transparent 35px),linear-gradient(90deg, rgb(80, 111, 183),rgb(119, 93, 250));
 	color: var(--white);
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
