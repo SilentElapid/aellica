@@ -22,7 +22,12 @@
 .header {
 	font-size: 2.1em;
 	color: #cee8ec;
-	text-shadow: 1px 1px 3px #a1b3b6;
+    font-weight: bold;
+    background: -webkit-linear-gradient(white, #a047db);
+				  	-webkit-background-clip: text;
+			   	-webkit-text-fill-color: transparent;
+	text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.329);
+
 }
 
 .text {
@@ -32,8 +37,8 @@
 }
 
 .textHeader {
-	margin-top: 30px;
-	margin-bottom: 12px;
+	margin-top: 50px;
+	margin-bottom: 30px;
 }
 
 @media only screen and (min-width: 480px) {
@@ -44,7 +49,7 @@
 
 @media only screen and (min-width: 620px) {
 	.container {width: 70%;}
-	.header{font-size: 3.2em;}
+	.header{font-size: 4.2em;}
 	.gradient {min-height: 400px;}
 }
 

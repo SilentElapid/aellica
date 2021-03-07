@@ -8,7 +8,7 @@ const About = () => {
 	return (
 		<>
 		<Head>
-		<title>Aellica | About</title
+		<title>Aellica | About</title>
 		</Head>
 			<div className={styles.gradient}>
 				<Topnav />
