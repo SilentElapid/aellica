@@ -2,4 +2,14 @@
 	padding: 15px;
 	display: flex;
 	justify-content: space-evenly;
+	background: var(--gradient);
+	margin-top: 150px;
+	align-items: center;
+	width: 100%;
+}
+
+.link {
+	cursor: pointer;
+	color: var(--white);
+	padding: 5px;
 }

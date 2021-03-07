@@ -1,4 +1,4 @@
-.card {
+.card, .cardTwo {
 	padding: 15px;
 	background-color: var(--primary);
 	border-radius: 3px;
@@ -13,6 +13,11 @@
 	flex-direction: column;
 }
 
+.cardTwo {
+	text-align: left !important;
+	justify-content: left !important;
+	align-items: initial;
+}
 @media only screen and (min-width: 480px) {
 	.card {width: 90%;	display: flex;
 	align-items: center; justify-content: initial;flex-direction: initial;}
