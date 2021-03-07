@@ -13,3 +13,7 @@
 	color: var(--white);
 	padding: 5px;
 }
+
+.footer h3{
+    padding: 10px 0;
+}
