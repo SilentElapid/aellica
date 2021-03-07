@@ -60,3 +60,16 @@
 		filter: blur(0);
 	}
 }
+
+.textSmall {
+	width: 60%;
+	margin: 0 auto;
+	text-align: justify;
+		margin-bottom: 50px;
+}
+
+.headerTwo {
+		margin-bottom: 10px;
+		margin-top: 20px;
+
+}
