@@ -62,7 +62,7 @@ export default function Home() {
 				<h1 className={styles.textHeader}>What are the downsides?</h1>
 				<p>Whilst it may sound all good, whats the worst case scenario? Well, like most wars the intent at first isn't to create mass devastation, as time progresses things may start to get more and more extreme and dangerous. Machines may no longer be created to help decrease the destruction, but instead created to make the most destruction. The limits with creating deadly machines are not as limited as human on field combat, old warfare tactics would have to be ditched and newer more deadly ones devised, the possiblily of badly engineered machines could be devastating and whats not to say that a lot more damage will be inflicted with the machines alone than all the past wars put together. When thinking of killer robots one of the first things that may come to mind is terminator like machines with shotguns or laser blasters. But in reality its unlikely that any warfaring machine will resemble the looks or attributes of a human. Most machines being rover like vehicles with firepower mounted on them to inflict as much damage as possible, and then you add the prospect of aircraft and sea vessels, it gets a lot more complicated, and one things for sure, it probably wouldn't do the enviroment any good. Whats not to say that these machines won't be created to destroy humans instead of other machines, or instead of targetting cities, data-centers and research labatories are targetted. The possibilities are endless</p>
 			</div>
-			<Footer />
+		<Footer />
 		</>
 	)
 }
