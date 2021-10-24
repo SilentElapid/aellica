@@ -1,19 +1,19 @@
 .topnav {
-	position: fixed;
+	position: absolute;
 	top: 0;
 	left: 0;
 	text-align: right;
-	padding: 11px;
+	padding: 15px 25px;
 	width: 100%;
 	height: auto;
-	background: var(--gradient);
+	/* background: var(--gradient); */
 	z-index: 600;
 }
 
 .link {
 	color: var(--white);
 	text-decoration: none;
-	padding-right: 8px;
+	padding-right: 12px;
 }
 
 .link:hover {

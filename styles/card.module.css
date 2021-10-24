@@ -1,13 +1,13 @@
 .card, .cardTwo {
-	padding: 15px;
+	padding: 15px 25px;
 	background-color: var(--primary);
 	border-radius: 3px;
 	box-shadow: 0px 5px 9px 0px var(--black), inset 1px 1px 1px var(--black);
 	min-height: 120px;
-	width: 100%;
+	width: 87%;
 	margin-top: 21px !important;
 	margin: 0 auto;
-		display: flex;
+	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
@@ -38,17 +38,23 @@
 	line-height: 50px;
 }
 
+.headerSmall {
+	font-size: 2em;
+	padding: 15px 0px;
+}
+
 .text {
 	width: 100%;
-	padding: 5px;
+	padding: 12px 20px;
 }
 
 .img {
 	width: 80%;
 	margin: 0 auto;
 	float: right !important;
-	border-radius: 5px;
+	border-radius: 15px;
 	z-index: 500 !important;
+	position: relative;
 }
 
 .wrap {
